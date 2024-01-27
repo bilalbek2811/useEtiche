@@ -1,18 +1,29 @@
-/* // <div
-//   style={{
-//     width: "100%",
-//     height: "780px",
-//     display: "flex",
-//     alignItems: "center",
-//     justifyContent: "center",
-//     background: real ? "black" : "white",
-//     transition: "1s",
-//   }}
-// >
-//   <h1
-//     style={{ color: real ? "white" : "black" }}
-//     onClick={() => messi(!real)}
-//   >
-//     {real ? <BsFillSunFill /> : <MdDarkMode />}
-//   </h1>
-// </div> */
+.block {
+  background: orange;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.text {
+  gap: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  transition: 1s;
+}
+
+.block1 {
+  background: green;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.h1 {
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  transition: 8s;
+}
